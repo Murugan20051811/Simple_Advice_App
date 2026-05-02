@@ -1,0 +1,38 @@
+body{
+    background-color: aquamarine;
+}
+#root{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#a1{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#A1{
+     width: fit-content;
+     border-radius: 50px;
+}
+#A2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    cursor: pointer;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: bold;
+    color: rgb(226, 73, 43);
+    cursor: pointer;
+}
+#A3{
+    width: auto;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
